@@ -1,0 +1,1338 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YOURLS 1.7\n"
+"POT-Creation-Date: 2020-08-28 11:30+0900\n"
+"PO-Revision-Date: 2020-08-29 11:55+0900\n"
+"Last-Translator: Eido Inoue <havill[at]gmail.com>\n"
+"Language-Team: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-KeywordsList: yourls__;yourls_e;yourls_s;yourls_se;yourls_esc_attr__;yourls_esc_html__;yourls_x;yourls_ex;"
+"yourls_esc_attr_x;yourls_esc_html_x;yourls_n:1,2;yourls_nx:1,2;yourls_n_noop:1,2;yourls_nx_noop:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: ja_JP\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: yourls-infos.php:204
+#, php-format
+msgid "Statistics for %s"
+msgstr "%s の統計"
+
+#: yourls-infos.php:211 admin/index.php:15 admin/index.php:34 admin/index.php:93 includes/functions-html.php:209
+#: includes/functions-html.php:221 includes/functions-html.php:464 includes/functions-html.php:626
+msgid "Short URL"
+msgstr "短縮URL"
+
+#: yourls-infos.php:227
+msgid "Aggregate stats for duplicate short URLs"
+msgstr "複製している短縮URLの総統計"
+
+#: yourls-infos.php:229 includes/functions-html.php:464
+msgid "Long URL"
+msgstr "長いURL"
+
+#: yourls-infos.php:235 yourls-infos.php:246
+msgid "Traffic statistics"
+msgstr "トラフィックの統計"
+
+#: yourls-infos.php:236 yourls-infos.php:432
+msgid "Traffic location"
+msgstr "地域"
+
+#: yourls-infos.php:237 yourls-infos.php:469
+msgid "Traffic sources"
+msgstr "集客"
+
+#: yourls-infos.php:239 yourls-infos.php:539 includes/functions-html.php:505 includes/functions-html.php:506
+msgid "Share"
+msgstr "共有"
+
+#: yourls-infos.php:254 yourls-infos.php:294
+msgid "Last 24 hours"
+msgstr "過去２４時間"
+
+#: yourls-infos.php:255 yourls-infos.php:296
+msgid "Last 7 days"
+msgstr "過去７日間"
+
+#: yourls-infos.php:256 yourls-infos.php:298
+msgid "Last 30 days"
+msgstr "過去３０日間"
+
+#: yourls-infos.php:257 yourls-infos.php:300
+msgid "All time"
+msgstr "全て"
+
+#: yourls-infos.php:309
+#, php-format
+msgid "Number of hits : %s"
+msgstr "ヒット数：%s"
+
+#: yourls-infos.php:332
+msgid "Historical click count"
+msgstr "以前のクリック数"
+
+#: yourls-infos.php:338
+#, php-format
+msgid "about 1 day ago"
+msgid_plural "about %s days ago"
+msgstr[0] "約1日前"
+msgstr[1] "約%s日前"
+
+#. //translators: eg Short URL created on March 23rd 1972
+#: yourls-infos.php:341
+#, php-format
+msgid "Short URL created on %s"
+msgstr "短縮URLは %s に作成した"
+
+#: yourls-infos.php:356 yourls-infos.php:363
+#, php-format
+msgid "%s per day"
+msgstr "１日に %s回"
+
+#: yourls-infos.php:359
+#, php-format
+msgid "%s per hour"
+msgstr "１時間に%s回"
+
+#: yourls-infos.php:366
+#, php-format
+msgid "%s hit"
+msgid_plural "%s hits"
+msgstr[0] "%sヒット"
+msgstr[1] "%sヒット"
+
+#: yourls-infos.php:373
+msgid "Best day"
+msgstr "一番良い日"
+
+#. //translators: eg. 43 hits on January 1, 1970
+#: yourls-infos.php:380
+#, php-format
+msgid "<strong>%1$s</strong> hit on %2$s"
+msgid_plural "<strong>%1$s</strong> hits on %2$s"
+msgstr[0] "%2$sに<strong>%1$s</strong>ヒット"
+msgstr[1] "%2$sに<strong>%1$s</strong>ヒット"
+
+#: yourls-infos.php:381 yourls-infos.php:443
+msgid "Click for more details"
+msgstr "詳しいのは、ここにクリック"
+
+#: yourls-infos.php:387 yourls-infos.php:390
+#, php-format
+msgid "Year %s"
+msgstr "%s年"
+
+#: yourls-infos.php:409 yourls-infos.php:447
+#, php-format
+msgid "1 hit"
+msgid_plural "%s hits"
+msgstr[0] "1ヒット"
+msgstr[1] "%sヒット"
+
+#: yourls-infos.php:426
+msgid "No traffic yet. Get some clicks first!"
+msgstr "まだ何もない。クリックさせて！"
+
+#: yourls-infos.php:441
+msgid "Top 5 countries"
+msgstr "国のトップ５"
+
+#: yourls-infos.php:454
+msgid "Overall traffic"
+msgstr "全体ののトラフィック量"
+
+#: yourls-infos.php:463
+msgid "No country data."
+msgstr "国のデータがない。"
+
+#: yourls-infos.php:478
+msgid "Referrer shares"
+msgstr "リファラーの共有"
+
+#: yourls-infos.php:481
+msgid "Others"
+msgstr "その他"
+
+#: yourls-infos.php:485 yourls-infos.php:518
+msgid "Referrers"
+msgstr "リファラー"
+
+#: yourls-infos.php:492 yourls-infos.php:502
+msgid "(details)"
+msgstr "（詳細）"
+
+#: yourls-infos.php:502
+msgid "Various:"
+msgstr "様々："
+
+#: yourls-infos.php:516
+msgid "Direct vs Referrer Traffic"
+msgstr "ダイレクト対リファラーのトラフィック"
+
+#: yourls-infos.php:518
+msgid "Direct"
+msgstr "ダイレクト"
+
+#: yourls-infos.php:520
+msgid "Direct traffic:"
+msgstr "ダイレクトのトラフィック："
+
+#: yourls-infos.php:520 yourls-infos.php:521
+#, php-format
+msgid "<strong>%s</strong> hit"
+msgid_plural "<strong>%s</strong> hits"
+msgstr[0] "<strong>%s</strong>ヒット"
+msgstr[1] "<strong>%s</strong>ヒット"
+
+#: yourls-infos.php:521
+msgid "Referrer traffic:"
+msgstr "リファラーのトラフィック："
+
+#: yourls-infos.php:530
+msgid "No referrer data."
+msgstr "リファラーのデータがない。"
+
+#: yourls-infos.php:541
+msgid "Short link"
+msgstr "短縮リンク"
+
+#: yourls-infos.php:541 includes/functions-html.php:359
+msgid "Quick Share"
+msgstr "はやく共有"
+
+#: admin/index.php:13 admin/index.php:38 admin/index.php:97 includes/functions-html.php:210
+#: includes/functions-html.php:222
+msgid "URL"
+msgstr "URL"
+
+#: admin/index.php:40
+msgid "All fields"
+msgstr "全項目"
+
+#: admin/index.php:42 includes/functions-html.php:211 includes/functions-html.php:464
+msgid "Title"
+msgstr "タイトル"
+
+#: admin/index.php:46 admin/index.php:105
+msgid "IP Address"
+msgstr "IPアドレス"
+
+#: admin/index.php:50
+#, php-format
+msgid "Searching for <strong>%1$s</strong> in <strong>%2$s</strong>."
+msgstr "<strong>%2$s</strong>の中で<strong>%1$s</strong>を検索している。"
+
+#: admin/index.php:101 includes/functions-html.php:223 includes/functions-html.php:628
+msgid "Date"
+msgstr "日付"
+
+#: admin/index.php:109 includes/functions-html.php:225 includes/functions-html.php:630
+msgid "Clicks"
+msgstr "クリック"
+
+#: admin/index.php:187 admin/index.php:198 admin/index.php:209
+#, php-format
+msgid "Short URL created, but could not redirect to %s !"
+msgstr "短縮URLを作成したが、%s に移動させなかった！"
+
+#: admin/index.php:219
+msgid "Unknown \"Share\" bookmarklet"
+msgstr "不明な「共有」ブックマークレット"
+
+#: admin/index.php:272
+#, php-format
+msgid ""
+"Display <strong>%1$s</strong> to <strong class=\"increment\">%2$s</strong> of <strong class=\"increment\">%3$s</"
+"strong> URLs"
+msgstr ""
+"<strong class=\"increment\">%3$s</strong> の中のURLでは<strong>%1$s</strong>番目～<strong class=\"increment\">"
+"%2$s</strong>番目を表示中"
+
+#: admin/index.php:274
+#, php-format
+msgid "counting <strong>1</strong> click"
+msgid_plural "counting <strong>%s</strong> clicks"
+msgstr[0] "1クリックを数える"
+msgstr[1] "%sクリックを数える"
+
+#: admin/index.php:277
+#, php-format
+msgid ""
+"Overall, tracking <strong class=\"increment\">%1$s</strong> links, <strong>%2$s</strong> clicks, and counting!"
+msgstr ""
+"全部で<strong class=\"increment\">%1$s</strong> のリンクと, <strong>%2$s</strong> のクリックを処理しています！"
+
+#: admin/index.php:337
+msgid "No URL"
+msgstr "URLがない"
+
+#: admin/install.php:13 admin/install.php:18
+#, php-format
+msgid "%s version is too old. Ask your server admin for an upgrade."
+msgstr "%s というバージョンは古すぎる。アップグレードして。"
+
+#: admin/install.php:24
+msgid "YOURLS already installed."
+msgstr "YOURLSはもうインストールされている。"
+
+#: admin/install.php:35
+msgid "File <tt>.htaccess</tt> successfully created/updated."
+msgstr "<tt>.htaccess</tt> は作成・更新した。"
+
+#: admin/install.php:37
+msgid ""
+"Could not write file <tt>.htaccess</tt> in YOURLS root directory. You will have to do it manually. See <a href="
+"\"http://yourls.org/htaccess\">how</a>."
+msgstr ""
+"<tt>.htaccess</tt> というファイルを YOURLS のディレクトリで作成できなかった。手動でやらないといけない <a href="
+"\"http://yourls.org/htaccess\">説明</a>を読んでください。"
+
+#: admin/install.php:50 admin/install.php:71
+msgid "Install YOURLS"
+msgstr "YOURLSをインストール"
+
+#: admin/install.php:74
+msgid "YOURLS Administration Page"
+msgstr "YOURLSの管理ページ"
+
+#: admin/plugins.php:38
+msgid "Unsupported action"
+msgstr "サポートできない操作"
+
+#: admin/plugins.php:42
+msgid "No plugin specified, or not a valid plugin"
+msgstr "機能拡張が指定されているか、不正な機能拡張"
+
+#: admin/plugins.php:51
+msgid "Plugin has been activated"
+msgstr "機能拡張を有効した"
+
+#: admin/plugins.php:53
+msgid "Plugin has been deactivated"
+msgstr "機能拡張を無効した"
+
+#: admin/plugins.php:58 includes/functions-html.php:745
+msgid "Manage Plugins"
+msgstr "機能拡張を管理"
+
+#: admin/plugins.php:63
+msgid "Plugins"
+msgstr "機能拡張"
+
+#: admin/plugins.php:70
+#, php-format
+msgid "%s plugin"
+msgid_plural "%s plugins"
+msgstr[0] "機能拡張は、%s個"
+msgstr[1] "機能拡張は、%s個"
+
+#. //translators: "you have '3 plugins' installed and '1' activated"
+#: admin/plugins.php:74
+#, php-format
+msgid "You currently have <strong>%1$s</strong> installed, and <strong>%2$s</strong> activated"
+msgstr "現在、インストールした<strong>%1$s</strong>で、<strong>%2$s</strong>個を有効にしています"
+
+#: admin/plugins.php:79
+msgid "Plugin Name"
+msgstr "機能拡張名"
+
+#: admin/plugins.php:80
+msgid "Version"
+msgstr "ﾊﾞｰｼﾞｮﾝ"
+
+#: admin/plugins.php:81
+msgid "Description"
+msgstr "概要"
+
+#: admin/plugins.php:82
+msgid "Author"
+msgstr "作成者"
+
+#: admin/plugins.php:83
+msgid "Action"
+msgstr "操作"
+
+#: admin/plugins.php:118
+msgid "Deactivate"
+msgstr "無効"
+
+#: admin/plugins.php:122
+msgid "Activate"
+msgstr "有効"
+
+#: admin/plugins.php:133
+#, php-format
+msgid "plugin file location: %s"
+msgstr "機能拡張のファイル場所：%s"
+
+#: admin/plugins.php:150
+msgid "Toggle active/inactive plugins"
+msgstr "有効・全部の切り替え"
+
+#: admin/plugins.php:157
+msgid ""
+"If something goes wrong after you activate a plugin and you cannot use YOURLS or access this page, simply rename "
+"or delete its directory, or rename the plugin file to something different than <code>plugin.php</code>."
+msgstr ""
+"もしも機能拡張のせいでこのページまたはYOURLSをアクセスできない場合、ディレクトリを削除したり改名したりしてみてくだ"
+"さい。又は<code>plugin.php</code>というファイルを改名すれば良いです。"
+
+#: admin/plugins.php:159
+msgid "More plugins"
+msgstr "機能拡張をもっとゲット"
+
+#: admin/plugins.php:161
+msgid "For more plugins, head to the official <a href=\"http://yourls.org/awesome\">Plugin list</a>."
+msgstr "機能拡張をもっと欲しかったら、公式の<a href=\"http://yourls.org/awesome\">機能拡張一覧</a>を見てください。"
+
+#: admin/tools.php:6
+msgid "Cool YOURLS Tools"
+msgstr "かっこいいYOURLSのツール"
+
+#: admin/tools.php:13
+msgid "Bookmarklets"
+msgstr "ブックマークレット"
+
+#: admin/tools.php:15
+msgid "YOURLS comes with handy <span>bookmarklets</span> for easier link shortening and sharing."
+msgstr "YOURLSは簡単にリンク短縮と共有のために<span>ブックマークレット</span>を提供しています。"
+
+#: admin/tools.php:17
+msgid "Standard or Instant, Simple or Custom"
+msgstr "標準とインスタント、単純とカスタム"
+
+#: admin/tools.php:20
+msgid ""
+"The <span>Standard Bookmarklets</span> will take you to a page where you can easily edit or delete your brand new "
+"short URL."
+msgstr "<span>標準のブックマークレット</span>は、別のページで新しい短縮URLを編集したり削除したりできます。"
+
+#: admin/tools.php:22
+msgid "The <span>Instant Bookmarklets</span> will pop the short URL without leaving the page you are viewing."
+msgstr "<span>インスタントのブックマークレット</span>は、現在見ているページから移動しないで短縮URLを作れます。"
+
+#: admin/tools.php:24
+msgid "The <span>Simple Bookmarklets</span> will generate a short URL with a random or sequential keyword."
+msgstr "<span>単純のブックマークレット</span>は、ランダムまたは順次的なキーワードで短縮URLを作ります。"
+
+#: admin/tools.php:26
+msgid "The <span>Custom Keyword Bookmarklets</span> will prompt you for a custom keyword first."
+msgstr "<span>カスタムのキーワードのブックマークレット</span>は、短縮URLを作る前に希望のキーワードを設定できます。"
+
+#: admin/tools.php:30
+msgid ""
+"If you want to share a description along with the link you're shortening, simply <span>select text</span> on the "
+"page you're viewing before clicking on your bookmarklet link"
+msgstr ""
+"リンクの概要を一緒に保存したかったら、リンクをマウスのドラッグなどで<span>テキストをセレクト</span>してから、ブック"
+"マークレットのリンクをクリックすれば良いです"
+
+#: admin/tools.php:33
+msgid "The Bookmarklets"
+msgstr "ザ・ブックマークレット"
+
+#: admin/tools.php:35 admin/tools.php:62
+msgid "Click and drag links to your toolbar (or right-click and bookmark it)"
+msgstr "リンクをあなたのツールバーへクリックとドラッグしてください。（右クリックと気に入りすることもできる）"
+
+#: admin/tools.php:41
+msgid "Standard (new page)"
+msgstr "標準（新しいウィンドウで開く）"
+
+#: admin/tools.php:42
+msgid "Instant (popup)"
+msgstr "インスタント（ポップアップ）"
+
+#: admin/tools.php:47
+msgid "Simple"
+msgstr "単純"
+
+#: admin/tools.php:48 admin/tools.php:49 admin/tools.php:53 admin/tools.php:54 admin/tools.php:68 admin/tools.php:70
+#: admin/tools.php:72
+msgid "Drag to your toolbar!"
+msgstr "ツールバーをドラッグ！"
+
+#: admin/tools.php:48
+msgid "Shorten"
+msgstr "短縮"
+
+#: admin/tools.php:49
+msgid "Instant Shorten"
+msgstr "ｲﾝｽﾀﾝﾄ短縮"
+
+#: admin/tools.php:52
+msgid "Custom Keyword"
+msgstr "カスタム・キーワード"
+
+#: admin/tools.php:53
+msgid "Custom shorten"
+msgstr "ｶｽﾀﾑ短縮"
+
+#: admin/tools.php:54
+msgid "Instant Custom Shorten"
+msgstr "ｲﾝｽﾀﾝﾄ･ｶｽﾀﾑ短縮"
+
+#: admin/tools.php:59
+msgid "Social Bookmarklets"
+msgstr "ソーシャルのブックマークレット"
+
+#: admin/tools.php:61
+msgid "Create a short URL and share it on social networks, all in one click!"
+msgstr "一つのクリックで短縮URLを作って、ソーシャルで共有できます！"
+
+#: admin/tools.php:64
+msgid "Shorten and share:"
+msgstr "短縮して共有："
+
+#: admin/tools.php:68
+msgid "YOURLS &amp; Facebook"
+msgstr "YOURLS→Facebook"
+
+#: admin/tools.php:70
+msgid "YOURLS &amp; Twitter"
+msgstr "YOURLS→Twitter"
+
+#: admin/tools.php:72
+msgid "YOURLS &amp; Tumblr"
+msgstr "YOURLS→tumblr"
+
+#: admin/tools.php:80
+msgid "Prefix-n-Shorten"
+msgstr "接頭辞つけて短縮"
+
+#: admin/tools.php:82
+#, php-format
+msgid ""
+"When viewing a page, you can also prefix its full URL: just head to your browser's address bar, add \"<span>%s</"
+"span>\" to the beginning of the current URL (right before its 'http://' part) and hit enter."
+msgstr ""
+"ページを見ているとき、フルURLのブラウザのアドレスバーの先に入れば良いです。「<span>%s</span>」の現在のURLの前"
+"（'http://'の部分の前）に入れてEnterを押してください。"
+
+#: admin/tools.php:85
+msgid "Note: this will probably not work if your web server is running on Windows"
+msgstr "ご注意：Windowsのウェブサーバーでできないでしょう"
+
+#: admin/tools.php:87
+msgid " (which seems to be the case here)"
+msgstr " （その場合のようです）"
+
+#: admin/tools.php:93
+msgid "Secure passwordless API call"
+msgstr "安全でパスワード不要なAPIコール"
+
+#: admin/tools.php:96
+msgid "YOURLS allows API calls the old fashioned way, using <tt>username</tt> and <tt>password</tt> parameters."
+msgstr "YOURLSは、<tt>username</tt>と<tt>password</tt>のパラメータで従来的な方法でAPIコールができます。"
+
+#: admin/tools.php:98
+msgid ""
+"If you're worried about sending your credentials into the wild, you can also make API calls without using your "
+"login or your password, using a secret signature token."
+msgstr "セキュリティを気になる方は、ユーザ名とパスワードを使わずに秘密認証トークンでAPIコールを呼びます。"
+
+#: admin/tools.php:102
+#, php-format
+msgid "Your secret signature token: <strong><code>%s</code></strong>"
+msgstr "あなたの秘密認証トークン：<strong><code>%s</code></strong>"
+
+#: admin/tools.php:103
+msgid "(It's a secret. Keep it secret) "
+msgstr "（これは秘密です。公開したり共有したりしないでください） "
+
+#: admin/tools.php:106
+msgid "This signature token can only be used with the API, not with the admin interface."
+msgstr "認証トークンは、APIだけで使います。管理ホームのインターフェイスで使えません。"
+
+#: admin/tools.php:109
+msgid "Usage of the signature token"
+msgstr "認証トークンの使い方"
+
+#: admin/tools.php:110
+msgid "Simply use parameter <tt>signature</tt> in your API requests. Example:"
+msgstr "APIリクエストで<tt>signature</tt>というパラメータを使えば良いです。例えば："
+
+#: admin/tools.php:114
+msgid "Usage of a time limited signature token"
+msgstr "時間制限の認証トークンの使い方"
+
+#: admin/tools.php:117 admin/tools.php:119
+msgid "actual value:"
+msgstr "実際の例："
+
+#: admin/tools.php:122
+msgid "Now use parameters <tt>signature</tt> and <tt>timestamp</tt> in your API requests. Example:"
+msgstr "APIリクエストでは<tt>signature</tt>と<tt>timestamp</tt>を使えば良いです。例えば："
+
+#: admin/tools.php:124
+msgid "Actual values:"
+msgstr "実際の値："
+
+#: admin/tools.php:126
+#, php-format
+msgid "This URL would be valid for only %s seconds"
+msgstr "このURLは、%s秒間しか使えない"
+
+#: admin/tools.php:130
+#, php-format
+msgid "See the <a href=\"%s\">API documentation</a> for more"
+msgstr "詳細は、<a href=\"%s\">API の説明書</a>で調べてください"
+
+#: admin/tools.php:281
+msgid "<strong>Note:</strong> depending on server settings, bookmarklets might fail on websites with <em>https</em>."
+msgstr ""
+"<strong>ご注意：</strong>サーバーの設定により、<em>https</em>を利用しているウェブサイトでブックマークレットが使えな"
+"いこともあります。"
+
+#: admin/tools.php:333
+msgid "See the <a href=\"%s\">Passwordless API</a> page on the wiki."
+msgstr "<a href=\"%s\">Passwordless API</a>のウィキ・ページを参考してください。"
+
+#: admin/upgrade.php:9 admin/upgrade.php:13
+msgid "Upgrade YOURLS"
+msgstr "YOURLSをアップグレード"
+
+#: admin/upgrade.php:18
+#, php-format
+msgid "Upgrade not required. Go <a href=\"%s\">back to play</a>!"
+msgstr "アップグレードは必要ではありません。<a href=\"%s\">遊び続けて</a>！"
+
+#: admin/upgrade.php:51
+msgid "Your current installation needs to be upgraded."
+msgstr "このソフトをアップグレードする必要があります。"
+
+#: admin/upgrade.php:52
+msgid ""
+"Please, pretty please, it is recommended that you <strong>backup</strong> your database<br/>(you should do this "
+"regularly anyway)"
+msgstr "早めにデータベースをバックアップしてください。"
+
+#: admin/upgrade.php:53
+msgid "Nothing awful <em>should</em> happen, but this doesn't mean it <em>won't</em> happen, right? ;)"
+msgstr "今までセーフですが、これからどうなるかだれもわかりませんね？＾＾；"
+
+#: admin/upgrade.php:54
+msgid ""
+"On every step, if <span class='error'>something goes wrong</span>, you'll see a message and hopefully a way to fix."
+msgstr "もしも、何か発生したら、メッセージで教えます。それから、できたら、直し方も教えます。"
+
+#: admin/upgrade.php:55
+msgid "If everything goes too fast and you cannot read, <span class=\"success\">good for you</span>, let it go :)"
+msgstr "結果表示は速すぎたら、<span class=\"success\">成功</span>という意味で安心できます。＾＾"
+
+#: admin/upgrade.php:56
+msgid "Once you are ready, press \"Upgrade\" !"
+msgstr "準備ができたら「アップグレード」を押して！"
+
+#: admin/upgrade.php:65
+msgid "Upgrade"
+msgstr "アップグレード"
+
+#: admin/upgrade.php:77
+msgid "Your installation is now up to date ! "
+msgstr "最新版になりました！ "
+
+#: admin/upgrade.php:78
+#, php-format
+msgid "Go back to <a href=\"%s\">the admin interface</a>"
+msgstr "<a href=\"%s\">管理ホーム</a>に戻る"
+
+#: includes/auth.php:53
+#, php-format
+msgid "Could not auto-encrypt passwords. Error was: \"%s\"."
+msgstr "自動的にパスワードを暗号化できなかった。エラーメッセージ：「%s」"
+
+#: includes/auth.php:55
+#, php-format
+msgid "<a href=\"%s\">Get help</a>."
+msgstr "<a href=\"%s\">ヘルプを参考</a>."
+
+#: includes/auth.php:57
+#, php-format
+msgid "<a href=\"%s\">Click here</a> to dismiss this message for one week."
+msgstr "<a href=\"%s\">ここに</a>にクリックすれば一週間後にリマインドします。"
+
+#: includes/class-mysql.php:39
+msgid ""
+"YOURLS requires the mysql, mysqli or pdo_mysql PHP extension. No extension found. Check your server config, or "
+"contact your host."
+msgstr ""
+"YOURLSは、mysql、 mysqli、pdo_MySQL、どっちかのPHP機能拡張が必要です。その機能はみつかりません。サーバーの設定を確"
+"認して、サーバーの管理者に聞いてください。"
+
+#: includes/class-mysql.php:40 includes/functions-install.php:16 includes/functions.php:438
+#: includes/functions.php:450
+msgid "Fatal error"
+msgstr "重大なエラー"
+
+#: includes/functions-auth.php:26
+msgid "Logged out successfully"
+msgstr "ログアウトした"
+
+#: includes/functions-auth.php:102
+msgid "Invalid username or password"
+msgstr "ユーザ名またはパスワードが正しくない"
+
+#: includes/functions-auth.php:104
+msgid "Please log in"
+msgstr "ログインしてださい"
+
+#: includes/functions-html.php:142
+#, php-format
+msgid "1 query"
+msgid_plural "%s queries"
+msgstr[0] "1クエリ数"
+msgstr[1] "%sクエリ数"
+
+#: includes/functions-html.php:147
+#, php-format
+msgid "Powered by %s"
+msgstr "%sで運用中"
+
+#: includes/functions-html.php:175
+msgid "Enter the URL"
+msgstr "URLを入力して"
+
+#: includes/functions-html.php:176
+msgid "Optional "
+msgstr "任意 "
+
+#: includes/functions-html.php:176
+msgid "Custom short URL"
+msgstr "カスタムの短縮URL"
+
+#: includes/functions-html.php:178
+msgid "Shorten The URL"
+msgstr "URLを短縮する"
+
+#: includes/functions-html.php:212 includes/functions-html.php:224 includes/functions-html.php:629
+msgid "IP"
+msgstr "IP"
+
+#. //translators: "Search for <input field with text to search> in <select dropdown with URL, title...>"
+#: includes/functions-html.php:216
+#, php-format
+msgid "Search for %1$s in %2$s"
+msgstr "%2$s の中に %1$s を検索"
+
+#: includes/functions-html.php:230
+msgid "Ascending"
+msgstr "昇順に"
+
+#: includes/functions-html.php:231
+msgid "Descending"
+msgstr "降順に"
+
+#. //translators: "Order by <criteria dropdown (date, clicks...)> in <order dropdown (Descending or Ascending)>"
+#: includes/functions-html.php:235
+#, php-format
+msgid "Order by %1$s %2$s"
+msgstr "並べ替え：%1$s %2$s"
+
+#. //translators: "Show <text field> rows"
+#: includes/functions-html.php:240
+#, php-format
+msgid "Show %s rows"
+msgstr "%s行を表示"
+
+#: includes/functions-html.php:245
+msgid "more"
+msgstr "以上"
+
+#: includes/functions-html.php:246
+msgid "less"
+msgstr "以下"
+
+#. //translators: "Show links with <more/less> than <text field> clicks"
+#: includes/functions-html.php:251
+#, php-format
+msgid "Show links with %1$s than %2$s clicks"
+msgstr "%2$sクリック数%1$sのリンクを表示する"
+
+#: includes/functions-html.php:256
+msgid "before"
+msgstr "の前"
+
+#: includes/functions-html.php:257
+msgid "after"
+msgstr "の後"
+
+#: includes/functions-html.php:258
+msgid "between"
+msgstr "の間"
+
+#. //translators: "Show links created <before/after/between> <date input> <"and" if applicable> <date input if applicable>"
+#: includes/functions-html.php:265
+#, php-format
+msgid "Show links created %1$s %2$s %3$s %4$s"
+msgstr "%2$s %3$s %4$s%1$sのリンクを表示"
+
+#: includes/functions-html.php:269
+msgid "Search"
+msgstr "検索"
+
+#: includes/functions-html.php:271
+msgid "Clear"
+msgstr "クリア"
+
+#: includes/functions-html.php:291
+#, php-format
+msgid "1 page"
+msgid_plural "%s pages"
+msgstr[0] "1ページ"
+msgstr[1] "%sページ"
+
+#: includes/functions-html.php:299 includes/functions-html.php:313
+msgid "Go to First Page"
+msgstr "最初ページへ"
+
+#: includes/functions-html.php:299
+msgid "&laquo; First"
+msgstr "「最初"
+
+#: includes/functions-html.php:313
+msgid "Last &raquo;"
+msgstr "最後」"
+
+#: includes/functions-html.php:357
+msgid "Your short link"
+msgstr "あなたの短縮リンク"
+
+#: includes/functions-html.php:388
+msgid "Long link"
+msgstr "長いリンク"
+
+#: includes/functions-html.php:390 includes/functions-html.php:499 includes/functions-html.php:500
+msgid "Stats"
+msgstr "統計"
+
+#: includes/functions-html.php:404
+msgid "Share with"
+msgstr "他の人に共有"
+
+#: includes/functions-html.php:405
+msgid "Tweet this!"
+msgstr "これをツイート！"
+
+#: includes/functions-html.php:406
+msgid "Share on Facebook"
+msgstr "Facebookで共有"
+
+#: includes/functions-html.php:407
+msgid "Share on Friendfeed"
+msgstr "Friendfeedで共有"
+
+#: includes/functions-html.php:464
+msgid "Save"
+msgstr "保存"
+
+#: includes/functions-html.php:464
+msgid "Save new values"
+msgstr "新しい値を保存"
+
+#: includes/functions-html.php:464
+msgid "Cancel"
+msgstr "取り消し"
+
+#: includes/functions-html.php:464
+msgid "Cancel editing"
+msgstr "編集を"
+
+#: includes/functions-html.php:466
+msgid "Error, URL not found"
+msgstr "エラー：URLを見つからなかった"
+
+#: includes/functions-html.php:512 includes/functions-html.php:513
+msgid "Edit"
+msgstr "編集"
+
+#: includes/functions-html.php:519 includes/functions-html.php:520
+msgid "Delete"
+msgstr "削除"
+
+#: includes/functions-html.php:541
+msgid "Not a common link"
+msgstr "一般リンクではない"
+
+#: includes/functions-html.php:627
+msgid "Original URL"
+msgstr "元のURL"
+
+#: includes/functions-html.php:631
+msgid "Actions"
+msgstr "操作"
+
+#: includes/functions-html.php:697
+msgid "Username"
+msgstr "ユーザ名"
+
+#: includes/functions-html.php:701
+msgid "Password"
+msgstr "パスワード"
+
+#: includes/functions-html.php:705
+msgid "Login"
+msgstr "ログイン"
+
+#: includes/functions-html.php:723 user/themes/full-bootstrap/theme.php:87
+#, php-format
+msgid "Hello <strong>%s</strong>"
+msgstr "こんにちは、<strong>%s</strong> さん"
+
+#: includes/functions-html.php:723 user/themes/full-bootstrap/theme.php:87
+msgid "Logout"
+msgstr "ログアウト"
+
+#: includes/functions-html.php:727
+msgid "Help"
+msgstr "ヘルプ"
+
+#: includes/functions-html.php:734
+msgid "Go to the admin interface"
+msgstr "管理ホームへ"
+
+#: includes/functions-html.php:735
+msgid "Admin interface"
+msgstr "管理ホーム"
+
+#: includes/functions-html.php:741
+msgid "Tools"
+msgstr "ツール"
+
+#: includes/functions-html.php:867 includes/functions-html.php:872
+msgid "Today"
+msgstr "本日"
+
+#: includes/functions-html.php:868 includes/functions-html.php:873
+msgid "Close"
+msgstr "閉じる"
+
+#: includes/functions-html.php:889
+#, php-format
+msgid "<a href=\"%s\">YOURLS version %s</a> is available. Please update!"
+msgstr "<a href=\"%s\">YOURLS v%s</a> があります。アップデートしてください！"
+
+#: includes/functions-install.php:16 includes/functions.php:438
+msgid "Incorrect DB config, or could not connect to DB"
+msgstr "DBの設定が間違っているかDBに接続できなかった"
+
+#: includes/functions-install.php:241
+#, php-format
+msgid "Table '%s' created."
+msgstr "'%s' というテーブルを作成した。"
+
+#: includes/functions-install.php:243
+#, php-format
+msgid "Error creating table '%s'."
+msgstr "'%s'というテーブルを作成した時エラーが発生した。"
+
+#: includes/functions-install.php:249
+msgid "Could not initialize options"
+msgstr "オプションを初期化できなかった"
+
+#: includes/functions-install.php:253
+msgid "Could not insert sample short URLs"
+msgstr "例の短縮URLを入れなかった"
+
+#: includes/functions-install.php:257
+msgid "YOURLS tables successfully created."
+msgstr "YOURLSのテーブルを作成した。"
+
+#: includes/functions-install.php:259
+msgid "Error creating YOURLS tables."
+msgstr "YOURLSのテーブルを作成した時エラーが発生した。"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:795 includes/functions-l10n.php:805 includes/functions-l10n.php:818
+msgid "Sunday"
+msgstr "日曜日"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:796 includes/functions-l10n.php:806 includes/functions-l10n.php:819
+msgid "Monday"
+msgstr "月曜日"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:797 includes/functions-l10n.php:807 includes/functions-l10n.php:820
+msgid "Tuesday"
+msgstr "火曜日"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:798 includes/functions-l10n.php:808 includes/functions-l10n.php:821
+msgid "Wednesday"
+msgstr "水曜日"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:799 includes/functions-l10n.php:809 includes/functions-l10n.php:822
+msgid "Thursday"
+msgstr "木曜日"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:800 includes/functions-l10n.php:810 includes/functions-l10n.php:823
+msgid "Friday"
+msgstr "金曜日"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:801 includes/functions-l10n.php:811 includes/functions-l10n.php:824
+msgid "Saturday"
+msgstr "土曜日"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:805
+msgid "S_Sunday_initial"
+msgstr "日"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:806
+msgid "M_Monday_initial"
+msgstr "月"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:807
+msgid "T_Tuesday_initial"
+msgstr "火"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:808
+msgid "W_Wednesday_initial"
+msgstr "水"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:809
+msgid "T_Thursday_initial"
+msgstr "木"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:810
+msgid "F_Friday_initial"
+msgstr "金"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:811
+msgid "S_Saturday_initial"
+msgstr "土"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:818
+msgid "Sun"
+msgstr "日"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:819
+msgid "Mon"
+msgstr "月曜"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:820
+msgid "Tue"
+msgstr "火曜"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:821
+msgid "Wed"
+msgstr "水曜"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:822
+msgid "Thu"
+msgstr "木曜"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:823
+msgid "Fri"
+msgstr "金曜"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:824
+msgid "Sat"
+msgstr "土曜"
+
+#. //translators: month name
+#: includes/functions-l10n.php:827 includes/functions-l10n.php:842
+msgid "January"
+msgstr "１月"
+
+#. //translators: month name
+#: includes/functions-l10n.php:828 includes/functions-l10n.php:843
+msgid "February"
+msgstr "２月"
+
+#. //translators: month name
+#: includes/functions-l10n.php:829 includes/functions-l10n.php:844
+msgid "March"
+msgstr "３月"
+
+#. //translators: month name
+#: includes/functions-l10n.php:830 includes/functions-l10n.php:845
+msgid "April"
+msgstr "４月"
+
+#. //translators: month name
+#: includes/functions-l10n.php:831 includes/functions-l10n.php:846
+msgid "May"
+msgstr "５月"
+
+#. //translators: month name
+#: includes/functions-l10n.php:832 includes/functions-l10n.php:847
+msgid "June"
+msgstr "６月"
+
+#. //translators: month name
+#: includes/functions-l10n.php:833 includes/functions-l10n.php:848
+msgid "July"
+msgstr "７月"
+
+#. //translators: month name
+#: includes/functions-l10n.php:834 includes/functions-l10n.php:849
+msgid "August"
+msgstr "８月"
+
+#. //translators: month name
+#: includes/functions-l10n.php:835 includes/functions-l10n.php:850
+msgid "September"
+msgstr "９月"
+
+#. //translators: month name
+#: includes/functions-l10n.php:836 includes/functions-l10n.php:851
+msgid "October"
+msgstr "１０月"
+
+#. //translators: month name
+#: includes/functions-l10n.php:837 includes/functions-l10n.php:852
+msgid "November"
+msgstr "１１月"
+
+#. //translators: month name
+#: includes/functions-l10n.php:838 includes/functions-l10n.php:853
+msgid "December"
+msgstr "１２月"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:842
+msgid "Jan_January_abbreviation"
+msgstr "1月"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:843
+msgid "Feb_February_abbreviation"
+msgstr "2月"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:844
+msgid "Mar_March_abbreviation"
+msgstr "3月"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:845
+msgid "Apr_April_abbreviation"
+msgstr "4月"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:846
+msgid "May_May_abbreviation"
+msgstr "5月"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:847
+msgid "Jun_June_abbreviation"
+msgstr "6月"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:848
+msgid "Jul_July_abbreviation"
+msgstr "7月"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:849
+msgid "Aug_August_abbreviation"
+msgstr "8月"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:850
+msgid "Sep_September_abbreviation"
+msgstr "9月"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:851
+msgid "Oct_October_abbreviation"
+msgstr "10月"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:852
+msgid "Nov_November_abbreviation"
+msgstr "11月"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:853
+msgid "Dec_December_abbreviation"
+msgstr "12月"
+
+#: includes/functions-l10n.php:860
+msgid "am"
+msgstr "午前"
+
+#: includes/functions-l10n.php:861
+msgid "pm"
+msgstr "午後"
+
+#: includes/functions-l10n.php:862
+msgid "AM"
+msgstr "午前"
+
+#: includes/functions-l10n.php:863
+msgid "PM"
+msgstr "午後"
+
+#. //translators: $thousands_sep argument for http://php.net/number_format, default is ,
+#: includes/functions-l10n.php:869
+msgid "number_format_thousands_sep"
+msgstr ""
+
+#. //translators: $dec_point argument for http://php.net/number_format, default is .
+#: includes/functions-l10n.php:873
+msgid "number_format_decimal_point"
+msgstr ""
+
+#. //translators: 'rtl' or 'ltr'. This sets the text direction for YOURLS.
+#: includes/functions-l10n.php:880
+msgid "ltr"
+msgstr "ltr"
+
+#: includes/functions-plugins.php:387
+msgid "Could not find and deactivated plugin :"
+msgid_plural "Could not find and deactivated plugins :"
+msgstr[0] "見つからなくて無効されている拡張拡張："
+msgstr[1] "見つからなくて無効されている機能拡張："
+
+#: includes/functions-plugins.php:425
+msgid "Not a valid plugin file"
+msgstr "不正な機能拡張ファイル"
+
+#: includes/functions-plugins.php:430
+msgid "Plugin already activated"
+msgstr "機能拡張はもう有効している"
+
+#: includes/functions-plugins.php:438
+#, php-format
+msgid "Plugin generated unexpected output. Error was: <br/><pre>%s</pre>"
+msgstr "機能拡張は予想以外のアウトプットを出力した。エラー：<br/><pre>%s</pre>"
+
+#: includes/functions-plugins.php:461
+msgid "Plugin not active"
+msgstr "機能拡張が有効されていない"
+
+#: includes/functions-plugins.php:541
+msgid "This page does not exist. Maybe a plugin you thought was activated is inactive?"
+msgstr "ページは存在していまえん。機能拡張が無効されているかもしれませんか？"
+
+#: includes/functions-plugins.php:541
+msgid "Invalid link"
+msgstr "不正なリンク"
+
+#: includes/functions.php:201
+msgid "Missing or malformed URL"
+msgstr "URLがないか不正な形"
+
+#: includes/functions.php:215
+msgid "URL is a short URL"
+msgstr "URLはもう既に短縮した"
+
+#: includes/functions.php:247
+#, php-format
+msgid "Short URL %s already exists in database or is reserved"
+msgstr "%s という短縮URLはもう存在しているか使えない"
+
+#. //translators: eg "http://someurl/ added to DB"
+#: includes/functions.php:253 includes/functions.php:275
+#, php-format
+msgid "%s added to database"
+msgstr "%s はデータベースに追加した"
+
+#: includes/functions.php:283
+msgid "Error saving url to database"
+msgstr "URLをデータベースで保存する時エラーが発生"
+
+#. //translators: eg "http://someurl/ already exists"
+#: includes/functions.php:300
+#, php-format
+msgid "%s already exists in database"
+msgstr "%s はもうデータベースに存在している"
+
+#: includes/functions.php:355
+msgid "Link updated in database"
+msgstr "データベースのリンクを更新した"
+
+#. //translators: "Error updating http://someurl/ (Shorturl: http://sho.rt/blah)"
+#: includes/functions.php:358
+#, php-format
+msgid "Error updating %s (Short URL: %s)"
+msgstr "%sを更新した時エラーが発生した（短縮URL：%s）"
+
+#: includes/functions.php:364
+msgid "URL or keyword already exists in database"
+msgstr "URL又はキーワードがデータベースにもう存在している"
+
+#: includes/functions.php:761
+#, php-format
+msgid "if you are not redirected after 10 seconds, please <a href=\"%s\">click here</a>"
+msgstr "もしも１０秒以内移動させなかったら<a href=\"%s\">ここ</a>にクリックしてください"
+
+#: includes/functions.php:769
+#, php-format
+msgid "Please <a href=\"%s\">click here</a>"
+msgstr "<a href=\"%s\">ここ</a>にクリックしてください"
+
+#: includes/functions.php:1394
+msgid "Too many URLs added too fast. Slow down please."
+msgstr "URLの追加は速すぎます。もっとゆっくりしてください。"
+
+#: includes/functions.php:1394
+msgid "Forbidden"
+msgstr "禁止"
+
+#: includes/functions.php:1673
+msgid "Unauthorized action or expired link"
+msgstr "リンクが有効期限が切れたか禁止な操作"
+
+#: includes/functions.php:1673
+msgid "Error"
+msgstr "エラー"
+
+#: includes/functions.php:2064
+msgid "Service temporarily unavailable"
+msgstr "サービスは一時的にアクセスできません"
+
+#: includes/functions.php:2065
+msgid "Our service is currently undergoing scheduled maintenance."
+msgstr "恐れ入りますが、現在、サービスは準備中です。"
+
+#: includes/functions.php:2066
+msgid "Things should not last very long, thank you for your patience and please excuse the inconvenience"
+msgstr "もうちょっとお待ちください。ご迷惑をおかけ本当に申し訳ありませんでした"
+
+#: includes/functions.php:2186
+#, php-format
+msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
+msgstr "%1$s は、%2$sのバージョンから、<strong>使えない</strong>ことになっています。代わりに%3$sを利用してください。"
+
+#: includes/functions.php:2188
+#, php-format
+msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
+msgstr ""
+"%1$s は、%2$sのバージョンから、<strong>使えない</strong>ことになっています。残念ですが、代わりのものがありません。"
+
+#: user/plugins/sample-toolbar/plugin.php:62
+msgid "day"
+msgid_plural "days"
+msgstr[0] "日間"
+msgstr[1] "日間"
+
+#: user/plugins/sample-toolbar/plugin.php:67
+msgid "view"
+msgid_plural "views"
+msgstr[0] "ページビュー"
+msgstr[1] "ページビュー"

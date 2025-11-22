@@ -30,7 +30,7 @@ This project is released under the MIT License.
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/potofo/yourls
 cd yourls
 ```
 

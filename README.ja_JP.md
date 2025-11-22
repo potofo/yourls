@@ -30,7 +30,7 @@ YOURLSとMySQL 8.0をDocker Composeで簡単に構築できる環境です。日
 ### 1. リポジトリのクローン
 
 ```bash
-git clone <リポジトリURL>
+git clone https://github.com/potofo/yourls
 cd yourls
 ```
 

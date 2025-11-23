@@ -235,7 +235,7 @@ docker compose exec -T db mysql -u yourls -pyourls yourls < backup.sql
 
 - [YOURLS公式サイト](https://yourls.org/)
 - [YOURLS GitHub](https://github.com/YOURLS/YOURLS)
-- [YOURLS-ja_JP](https://github.com/YOURLS/YOURLS-ja-JP)
+- [YOURLS-ja_JP](https://github.com/havill/YOURLS-ja_JP)
 - [Docker公式ドキュメント](https://docs.docker.com/)
 
 ## コントリビューション

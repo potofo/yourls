@@ -33,4 +33,5 @@ services:
     image: yourls
     volumes:
       - ./config/config.php:/var/www/html/user/config.php
+      - ./config/config-container.php:/var/www/html/user/config-container.php
       - ./config/languages/ja_JP.mo:/var/www/html/user/languages/ja_JP.mo

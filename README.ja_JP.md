@@ -237,6 +237,7 @@ docker compose exec -T db mysql -u yourls -pyourls yourls < backup.sql
 - [YOURLS GitHub](https://github.com/YOURLS/YOURLS)
 - [YOURLS-ja_JP](https://github.com/havill/YOURLS-ja_JP)
 - [Docker公式ドキュメント](https://docs.docker.com/)
+- [query-string-keeper](https://github.com/littleskyfish/query-string-keeper)
 
 ## コントリビューション
 
@@ -245,3 +246,8 @@ docker compose exec -T db mysql -u yourls -pyourls yourls < backup.sql
 ## ライセンス
 
 MIT License - 詳細は[LICENSE.txt](LICENSE.txt)を参照してください。
+- yourls
+  MIT License - 詳細は[LICENSE.txt](LICENSE.txt)を参照してください。
+
+- plugins
+  [query-string-keeper](https://github.com/littleskyfish/query-string-keeper) - 詳細は [LICENSE](https://github.com/littleskyfish/query-string-keeper/blob/main/LICENSE)を参照してください。
